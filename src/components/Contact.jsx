@@ -1,0 +1,60 @@
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+function Contact() {
+  return (
+    <section className="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 py-16" id="contact">
+      <div className="container mx-auto px-4">
+        {/* Section Title */}
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">Get In Touch</h2>
+        <p className="text-center text-gray-600 mb-8">
+          I'd love to connect! Feel free to reach out through the form or on social media.
+        </p>
+
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+          {/* Contact Form */}
+          <form className="bg-white p-8 shadow-lg rounded-lg w-full max-w-md">
+            <div className="mb-4">
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+              <input type="text" id="name" className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Name" />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+              <input type="email" id="email" className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Email" />
+            </div>
+            <div className="mb-4">
+              <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+              <textarea id="message" rows="4" className="w-full mt-1 p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition duration-300">Send Message</button>
+          </form>
+
+          {/* Contact Info and Social Icons */}
+          <div className="text-center md:text-left space-y-4">
+            <p className="text-gray-700">Email: mahadiduet@gmail.com</p>
+            <p className="text-gray-700">Phone: +8801723687721</p>
+            <p className="text-gray-700">Location: Dhaka, Bangladesh</p>
+
+            {/* Social Icons */}
+            <div className="flex justify-center md:justify-start gap-4 mt-4">
+              <a href="https://www.facebook.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition">
+                <FaFacebookF size={24} />
+              </a>
+              <a href="https://github.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-900 transition">
+                <FaGithub size={24} />
+              </a>
+              <a href="https://www.linkedin.com/in/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition">
+                <FaLinkedinIn size={24} />
+              </a>
+              <a href="https://x.com/emammahadi" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition">
+                <FaXTwitter size={24} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Contact;
