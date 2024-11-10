@@ -1,6 +1,6 @@
 const ExperienceEducation = () => {
   return (
-    <section className="bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100 py-16 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover" id="experience-education">
+    <section className="py-16 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover" id="experience-education">
       <div className="container mx-auto px-12">
         {/* Section Title */}
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Experience & Education</h2>
