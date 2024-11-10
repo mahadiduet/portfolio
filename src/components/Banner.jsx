@@ -17,16 +17,16 @@ const Banner = () => {
             </button>
           </a>
           <div className="flex gap-4 mt-4 sm:mt-0">
-            <a href="https://www.facebook.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition">
+            <a href="https://www.facebook.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition border-2 border-blue-500 p-3 rounded-full">
               <FaFacebookF size={24} />
             </a>
-            <a href="https://github.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-900 transition">
+            <a href="https://github.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-900 transition border-2 border-blue-500 p-3 rounded-full">
               <FaGithub size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition">
+            <a href="https://www.linkedin.com/in/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition border-2 border-blue-500 p-3 rounded-full">
               <FaLinkedinIn size={24} />
             </a>
-            <a href="https://x.com/emammahadi" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition">
+            <a href="https://x.com/emammahadi" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition border-2 border-blue-500 p-3 rounded-full">
               <FaXTwitter size={24} />
             </a>
           </div>
@@ -34,7 +34,7 @@ const Banner = () => {
       </div>
 
       <img
-        className="w-80 sm:w-[350px] md:w-[450px] lg:w-[500px] rounded-full shadow-lg mx-auto sm:mx-0"
+        className="w-80 sm:w-[350px] md:w-[450px] lg:w-[500px] rounded-full mx-auto sm:mx-0 opacity-80"
         src="https://i.ibb.co.com/hgm1pJw/Image-8.jpg"
         alt="Emam Mahadi"
       />
