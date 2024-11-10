@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Banner = () => {
   return (
-    <div className="flex flex-col sm:flex-row justify-between bg-[#FFF8F3] p-8 space-y-8 sm:space-y-0 mt-16">
+    <div className="flex flex-col sm:flex-row justify-between bg-[#FFF8F3] p-8 space-y-8 sm:space-y-0 mt-16 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover">
       <div className="banner-content flex-1 space-y-4">
         <h4 className="text-4xl font-semibold text-gray-700">Hi, I am</h4>
         <h1 className="text-5xl sm:text-6xl font-bold text-blue-900">Emam Mahadi</h1>
@@ -34,7 +34,7 @@ const Banner = () => {
       </div>
 
       <img
-        className="w-80 sm:w-[350px] md:w-[450px] lg:w-[500px] rounded-lg shadow-lg mx-auto sm:mx-0"
+        className="w-80 sm:w-[350px] md:w-[450px] lg:w-[500px] rounded-full shadow-lg mx-auto sm:mx-0"
         src="https://i.ibb.co.com/hgm1pJw/Image-8.jpg"
         alt="Emam Mahadi"
       />

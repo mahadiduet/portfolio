@@ -14,7 +14,7 @@ const Skills = () => {
         // Add more skills as needed
     ];
     return (
-        <section id="skills" className="py-16 bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100">
+        <section id="skills" className="py-16 bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover">
             <div className="text-center mb-10">
                 <h2 className="text-4xl font-bold text-center text-gray-800">Skills</h2>
                 <p className="text-gray-600">Technologies and tools I work with</p>

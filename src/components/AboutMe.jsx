@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-      <section id="about" className="py-16 bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 text-gray-800">
+      <section id="about" className="py-16 bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 text-red-400 bg-[url('https://i.ibb.co.com/68nngH0/about.jpg')] bg-cover">
         <div className="container mx-auto px-4">
           <div className="flex gap-8 flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0">
             {/* Image */}
@@ -15,7 +15,7 @@ const AboutMe = () => {
             {/* About Text */}
             <div className="w-full lg:w-1/2 text-center lg:text-left px-4">
               <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">About Me</h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              <p className="text-lg text-blue-800 leading-relaxed mb-4">
                 Hello! I'm Md. Emam Mahadi, a dedicated full-stack developer with expertise in both front-end and back-end technologies.
                 I specialize in building dynamic, user-focused applications using <span className="font-semibold text-gray-900">React</span>,
                 <span className="font-semibold text-gray-900"> Node.js</span>, and <span className="font-semibold text-gray-900">MongoDB</span>.
