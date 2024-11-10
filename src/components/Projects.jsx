@@ -23,7 +23,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <a className="flex justify-center mt-4" href={project.urlLive}><button className="bg-orange-400 px-16 py-2 rounded-lg text-white font-bold">Live Visit</button></a>
+                        <a className="flex justify-center mt-4" href={project.urlLive}><button className="bg-blue-400 px-16 py-2 rounded-lg text-white font-bold">Live Visit</button></a>
                     </div>
                 ))}
             </div>
