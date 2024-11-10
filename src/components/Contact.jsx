@@ -30,24 +30,24 @@ function Contact() {
           </form>
 
           {/* Contact Info and Social Icons */}
-          <div className="text-center md:text-left space-y-4">
-            <p className="text-gray-700">Email: mahadiduet@gmail.com</p>
-            <p className="text-gray-700">Phone: +8801723687721</p>
-            <p className="text-gray-700">Location: Dhaka, Bangladesh</p>
+          <div className="text-center md:text-left space-y-4 bg-blue-600 px-8 py-20 rounded-xl text-white shadow-lg">
+            <p className="text-white">Email: mahadiduet@gmail.com</p>
+            <p className="text-white">Phone: +8801723687721</p>
+            <p className="text-white">Location: Dhaka, Bangladesh</p>
 
             {/* Social Icons */}
             <div className="flex justify-center md:justify-start gap-4 mt-4">
-              <a href="https://www.facebook.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition">
-                <FaFacebookF size={24} />
+              <a href="https://www.facebook.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-700 transition">
+                <button className="bg-black p-2 rounded-full"><FaFacebookF size={24} /></button>
               </a>
-              <a href="https://github.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-gray-800 hover:text-gray-900 transition">
-                <FaGithub size={24} />
+              <a href="https://github.com/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-900 transition">
+              <button className="bg-black p-2 rounded-full"><FaGithub size={24} /></button>
               </a>
-              <a href="https://www.linkedin.com/in/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 transition">
-                <FaLinkedinIn size={24} />
+              <a href="https://www.linkedin.com/in/mahadiduet" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-600 transition">
+              <button className="bg-black p-2 rounded-full"><FaLinkedinIn size={24} /></button>
               </a>
-              <a href="https://x.com/emammahadi" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-500 transition">
-                <FaXTwitter size={24} />
+              <a href="https://x.com/emammahadi" target="_blank" rel="noopener noreferrer" className="text-white hover:text-blue-500 transition">
+              <button className="bg-black p-2 rounded-full"><FaXTwitter size={24} /></button>
               </a>
             </div>
           </div>

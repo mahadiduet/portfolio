@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <section id="projects" className="py-16 bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100">
             <div className="text-center mb-10">
-                <h2 className="text-3xl font-semibold">My Projects</h2>
+                <h2 className="text-4xl font-bold text-center text-gray-800">My Projects</h2>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
                 {projects.map((project, index) => (
@@ -23,7 +23,7 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <a className="flex justify-center mt-4" href={project.urlLive}><button className="bg-blue-400 px-16 py-2 rounded-lg text-white font-bold">Live Visit</button></a>
+                        <a className="flex justify-center mt-4" href={project.urlLive} target="_blank"><button className="bg-blue-400 px-16 py-2 rounded-lg text-white font-bold">Live Visit</button></a>
                     </div>
                 ))}
             </div>

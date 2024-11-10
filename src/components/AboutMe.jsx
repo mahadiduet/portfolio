@@ -14,7 +14,7 @@ const AboutMe = () => {
   
             {/* About Text */}
             <div className="w-full lg:w-1/2 text-center lg:text-left px-4">
-              <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 mb-4">About Me</h2>
+              <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">About Me</h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-4">
                 Hello! I'm Md. Emam Mahadi, a dedicated full-stack developer with expertise in both front-end and back-end technologies.
                 I specialize in building dynamic, user-focused applications using <span className="font-semibold text-gray-900">React</span>,
