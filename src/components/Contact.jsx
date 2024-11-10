@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function Contact() {
   return (
-    <section className="bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 py-16 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover" id="contact">
+    <section className="py-16 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover" id="contact">
       <div className="container mx-auto px-4">
         {/* Section Title */}
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">Get In Touch</h2>

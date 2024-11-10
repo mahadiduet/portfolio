@@ -6,7 +6,7 @@ const Projects = () => {
         // Add other projects
     ];
     return (
-        <section id="projects" className="py-16 bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover">
+        <section id="projects" className="py-16  bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover">
             <div className="text-center mb-10">
                 <h2 className="text-4xl font-bold text-center text-gray-800">My Projects</h2>
             </div>
