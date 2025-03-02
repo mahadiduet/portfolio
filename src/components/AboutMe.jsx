@@ -1,6 +1,6 @@
 const AboutMe = () => {
     return (
-      <section id="about" className="py-16  text-red-400 bg-[url('https://i.ibb.co.com/68nngH0/about.jpg')] bg-cover">
+      <section id="about" className="py-16  text-red-400 bg-[url('https://i.ibb.co.com/LNFkMtq/banner-bacgground.jpg')] bg-cover">
         <div className="container mx-auto px-4">
           <div className="flex gap-8 flex-col lg:flex-row justify-between items-center space-y-8 lg:space-y-0">
             {/* Image */}
