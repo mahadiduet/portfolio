@@ -11,7 +11,7 @@ const Banner = () => {
           A passionate full-stack developer skilled in React, Node.js, Express, and MongoDB, creating efficient and impactful web applications.
         </p>
         <div className="flex flex-col items-center sm:flex-row justify-start sm:justify-start gap-4 mt-4">
-          <a target="_blank" download="Resume.pdf" href="https://drive.google.com/file/d/1TFe0sdA7KGMTQYxYM1i2u__VzOFdnjbH/view?usp=drive_link">
+          <a target="_blank" download="Resume.pdf" href="https://drive.google.com/file/d/10tA-BlnbbVYHSkVA_67mNjs8Khi4m62N/view?usp=drive_link">
             <button className="bg-blue-500 text-white rounded px-8 py-4 font-medium transition hover:bg-orange-600">
               Download Resume
             </button>
